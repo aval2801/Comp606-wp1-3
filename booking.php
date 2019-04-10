@@ -3,23 +3,25 @@
   session_start();
 ?>
 
-
 	<div class="col-md-4">
 
        <div class="card">
        		<div class="card-header">
        			<h2 align="center">Make Your Booking Here</h2>
        		</div>
+			
        		<div class="card-body"> 
        		<form class="signup-form" action="confirmbooking.php" method="POST">
        			 <div class="form-group">
        				<label>Name</label>
        				<input type="text" class="form-control form-control-lg rounded-0" name = "first" required="true">
        			</div>
+				
        				<div class="form-group">
        					<label>Email</label>
        					<input type="text" class="form-control form-control-lg rounded-0" name = "email" required="true">
        			</div>
+				
        			<div class="form-group">
        				<label>Injury Type</label>
        				<select class="form-control form-control-lg rounded-0" name="injury">
