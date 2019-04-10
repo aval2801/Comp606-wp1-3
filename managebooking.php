@@ -8,9 +8,9 @@ include("header2.php"); include("includes/dbh.inc.php"); ?>
 	</div>
 </div>
 <div class="container">
-	
 	<?php
 	/* This will get the message from the header using GET[] method and displays the message accordingly. */
+	
 		if(isset($_GET['m'])) {
 			$m=$_GET['m'];
 			if($m=='ds') {
@@ -22,6 +22,7 @@ include("header2.php"); include("includes/dbh.inc.php"); ?>
 	?>
 	
 	<!-- Display the headings of the table -->
+	
 	<table style="border:1px;width:100%;margin:auto;background:#bdd8e3;" border="1" cellspacing="0">
 		<tr style="background:#ccc;">
 			<th> Sr.No. </th>
