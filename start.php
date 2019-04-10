@@ -3,11 +3,11 @@
   include("includes/dbh.inc.php");
 ?>
 
-
 <section class="container container-fluid">
 	<div class="row">
      
-<!--Message will be shown if a session is found, if not then a form will show to prompt Login-->                                   
+<!--Message will be shown if a session is found, if not then a form will show to prompt Login-->  
+                                 
     <?php 
       if(isset($_SESSION['u_id'])) {
         
