@@ -34,7 +34,6 @@
 		$hidden="";
 	 }
 ?>
-
 <div class='blue-container'>
 	<div class="container">
 		<h3> Bookings </h3>
@@ -53,7 +52,6 @@
 				echo "<div class='msg nmsg'> Not Saved. Please try again. </div>";
 			}
 			
-
 		} 
 	?>
 	<!-- form action=<?php echo $formaction; ?>" will diferentiate between the two pages. -->
