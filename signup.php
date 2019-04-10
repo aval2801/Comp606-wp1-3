@@ -1,10 +1,10 @@
 <?php 
   include_once 'header.php';
 ?>
-
 <section class="container container-fluid">
 	<div class="row">
-    
+	
+	
     <!-- Sign up form within a card , create a signup form for new user-->
 
                 <div class="col-md-6 mx-auto">
