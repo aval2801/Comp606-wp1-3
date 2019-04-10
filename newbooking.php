@@ -78,17 +78,17 @@
                 
                     <th> Injury: </th>
                     <!-- value="" will print the data of the particular column from the database  -->
-                    <td> <input class="fitem" type="text" required="true" name="injury" placeholder="Your first name" value="<?php echo $rec['injury']; ?>"></td>
+                    <td> <input class="fitem" type="text" required="true" name="injury" placeholder="Your Injury name" value="<?php echo $rec['injury']; ?>"></td>
                 <tr/>
                 <tr>
                     <th> Massage: </th>
                     <!-- value="" will print the data of the particular column from the database  -->
-                    <td> <input class="fitem" type="text" required="true" name="massage" placeholder="Your first name" value="<?php echo $rec['massage']; ?>"></td>
+                    <td> <input class="fitem" type="text" required="true" name="massage" placeholder="Your manage name" value="<?php echo $rec['massage']; ?>"></td>
                 <tr/>
                 <tr>
                     <th> Timeslot: </th>
                     <!-- value="" will print the data of the particular column from the database  -->
-                    <td> <input class="fitem" type="text" required="true" name="timeslot" placeholder="Your first name" value="<?php echo $rec['timeslot']; ?>"></td>
+                    <td> <input class="fitem" type="text" required="true" name="timeslot" placeholder="Your Timeslot" value="<?php echo $rec['timeslot']; ?>"></td>
                 <tr/>
                 <tr>
 				<th></th>

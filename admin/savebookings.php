@@ -15,7 +15,7 @@ include("../includes/dbh.inc.php");
 		if(!$run){
 			die(); 
 		}else{
-			echo "Booking done successfully";
+			echo "Cancel Booking done successfully";
 			//header("location:managebooking.php?m=success!	");
 		}
 		echo mysqli_error($conn);

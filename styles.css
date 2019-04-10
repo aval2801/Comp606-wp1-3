@@ -104,7 +104,6 @@ input, select {
 a {
     text-decoration: none;
 }
-
 body {
 /*https://css-tricks.com/perfect-full-page-background-image*/
     background: url(https://images.unsplash.com/photo-1508796079212-a4b83cbf734d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d17caec6b38a843b4350aee210c64ce7&auto=format&fit=crop&w=1650&q=80) no-repeat center center fixed; ;
