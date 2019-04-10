@@ -1,10 +1,7 @@
 <?php 
   include_once 'header.php';
-  session_start();
 ?>
-
 	<div class="col-md-4">
-
        <div class="card">
        		<div class="card-header">
        			<h2 align="center">Make Your Booking Here</h2>

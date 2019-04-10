@@ -1,8 +1,10 @@
 <?php
 
 	include_once("includes/dbh.inc.php");
+	
 ?>
 <?php
+	
 	
 	//retrieve the data from the form and store it in a variable
 	
