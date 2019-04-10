@@ -2,7 +2,9 @@
 
 session_start(); 
 
+
 if(isset($_POST['submit'])) {
+  
   
   include 'dbh.inc.php';
   
@@ -12,6 +14,7 @@ if(isset($_POST['submit'])) {
   //Error handlers
   //Check if these inputs are empty
   //if empty, ove to index page with message in Url, else store data in database
+  
   
   if (empty($uid) || empty($pwd)) {
       header("Location: ../index.php?login=empty");
