@@ -2,6 +2,7 @@
 
   include_once 'header.php';
   include("includes/dbh.inc.php");
+  
 ?>
 
 <section class="container container-fluid">
